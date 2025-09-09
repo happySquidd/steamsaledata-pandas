@@ -4,7 +4,6 @@ import os
 
 # dpwnload the dataset
 path = kagglehub.dataset_download("benjaminlundkvist/steam-sales-historical-dataset")
-print(f"Dataset downloaded to: {path}")
 
 # create a correct path by using os
 csv_path = os.path.join(path, 'steam_sales.csv')
